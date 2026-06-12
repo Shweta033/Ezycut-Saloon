@@ -1,0 +1,200 @@
+.featured {
+  padding: 60px 80px;
+}
+
+.featured h2 {
+  color: #d4af37;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.salonGrid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.salonCard {
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 16px;
+  width: 300px;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.salonCard:hover {
+  transform: translateY(-8px);
+  border: 1px solid #d4af37;
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+}
+
+.salonCard h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.salonCard p {
+  color: #aaa;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.salonCard span {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Navbar Fix */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar div {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a:hover {
+  color: #d4af37;
+}
+
+/* Search Box Fix */
+.searchBox input {
+  padding: 16px;
+  width: 450px;
+  border-radius: 8px;
+  border: none;
+}
+
+.searchBox button {
+  padding: 16px 28px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #d4af37;
+  color: #111;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.searchBox button:hover {
+  opacity: 0.9;
+}
+/* ========================= */
+/* Trending Services Section */
+/* ========================= */
+
+.services {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #d4af37;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.serviceGrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.serviceCard {
+  background: #1c1c1c;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.serviceCard:hover {
+  background: #d4af37;
+  color: #111;
+  transform: translateY(-5px);
+}
+/* ========================= */
+/* How It Works Section */
+/* ========================= */
+
+.howItWorks {
+  padding: 80px;
+  text-align: center;
+}
+
+.howItWorks h2 {
+  color: #d4af37;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.stepsGrid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.stepCard {
+  background: #1c1c1c;
+  width: 250px;
+  padding: 25px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.stepCard:hover {
+  transform: translateY(-8px);
+  border: 1px solid #d4af37;
+  box-shadow: 0 8px 25px rgba(212,175,55,0.3);
+}
+
+.stepCard h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.stepCard p {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ========================= */
+/* Footer */
+/* ========================= */
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 80px;
+  border-top: 1px solid #222;
+}
+
+.footer h2 {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  color: #aaa;
+  margin: 8px 0;
+}
