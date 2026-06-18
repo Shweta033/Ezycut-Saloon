@@ -332,6 +332,18 @@
   cursor: pointer;
 }
 
+.services-card-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  background: #d4af37;
+  color: #111;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .salons-page {
   padding: 40px 80px 80px;
   min-height: 100vh;
@@ -507,6 +519,9 @@
 }
 
 .salon-card-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 14px 18px;
   border: none;
@@ -516,6 +531,7 @@
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+  text-decoration: none;
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
@@ -730,13 +746,272 @@
   opacity: 0.94;
 }
 
+.checkout-page {
+  padding: 40px 80px 80px;
+  min-height: 100vh;
+}
+
+.checkout-hero {
+  max-width: 1180px;
+  margin: 0 auto 36px;
+  padding: 40px;
+  border-radius: 28px;
+  border: 1px solid #262626;
+  background:
+    radial-gradient(circle at top left, rgba(212, 175, 55, 0.24), transparent 34%),
+    linear-gradient(135deg, #181818 0%, #101010 100%);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.checkout-copy {
+  max-width: 760px;
+}
+
+.checkout-eyebrow {
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.checkout-hero h1 {
+  color: #fff;
+  font-size: 52px;
+  line-height: 1.08;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.checkout-subcopy {
+  color: #b4b4b4;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 660px;
+  text-align: left;
+}
+
+.checkout-trust-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.checkout-trust-row span {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #f1e7be;
+  font-size: 14px;
+}
+
+.checkout-layout {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.35fr 0.9fr;
+  gap: 24px;
+}
+
+.checkout-form-card,
+.checkout-summary-card {
+  background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
+  border: 1px solid #242424;
+  border-radius: 24px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+}
+
+.checkout-form-card {
+  padding: 30px;
+  text-align: left;
+}
+
+.checkout-section-head p,
+.checkout-summary-label {
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.checkout-section-head h2 {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 26px;
+}
+
+.checkout-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.checkout-form-card label {
+  display: grid;
+  gap: 10px;
+}
+
+.checkout-form-card label span {
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.checkout-form-card input,
+.checkout-form-card select,
+.checkout-form-card textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #2d2d2d;
+  border-radius: 14px;
+  padding: 15px 16px;
+  background: #161616;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.checkout-form-card input:focus,
+.checkout-form-card select:focus,
+.checkout-form-card textarea:focus {
+  border-color: rgba(212, 175, 55, 0.7);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.12);
+}
+
+.checkout-form-card textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.checkout-note-field {
+  margin-bottom: 24px;
+}
+
+.checkout-payment-preview {
+  border-radius: 20px;
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.checkout-payment-preview-head p {
+  color: #d4af37;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.checkout-payment-preview-head h3 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 18px;
+}
+
+.checkout-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.checkout-methods span {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #111;
+  border: 1px solid #2f2f2f;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.checkout-summary-card {
+  padding: 30px;
+  text-align: left;
+  position: sticky;
+  top: 24px;
+  height: fit-content;
+}
+
+.checkout-summary-top h2 {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.checkout-summary-top span {
+  color: #d4af37;
+  font-size: 16px;
+}
+
+.checkout-summary-list {
+  display: grid;
+  gap: 18px;
+  margin: 28px 0;
+}
+
+.checkout-summary-list div {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #272727;
+}
+
+.checkout-summary-list p,
+.checkout-total-row p,
+.checkout-disclaimer {
+  color: #a8a8a8;
+}
+
+.checkout-summary-list strong,
+.checkout-total-row strong {
+  color: #fff;
+  font-size: 18px;
+}
+
+.checkout-total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0 22px;
+}
+
+.checkout-pay-button {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #d4af37 0%, #f3db79 100%);
+  color: #111;
+  font-size: 17px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 10px 24px rgba(212, 175, 55, 0.2);
+}
+
+.checkout-pay-button:hover {
+  transform: translateY(-2px);
+}
+
+.checkout-disclaimer {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 16px;
+}
+
 @media (max-width: 1024px) {
   .services-page-final,
-  .salons-page {
+  .salons-page,
+  .checkout-page {
     padding: 24px 24px 60px;
   }
 
-  .salons-hero {
+  .salons-hero,
+  .checkout-hero,
+  .contact-hero {
     padding: 28px;
   }
 
@@ -755,6 +1030,8 @@
 
   .salons-stats,
   .salons-listing,
+  .checkout-layout,
+  .checkout-form-grid,
   .contact-stats,
   .contact-content,
   .contact-form-grid {
@@ -765,12 +1042,13 @@
     padding: 24px 24px 60px;
   }
 
-  .contact-hero {
-    padding: 28px;
-  }
-
+  .checkout-hero h1,
   .contact-hero h1 {
     font-size: 40px;
+  }
+
+  .checkout-summary-card {
+    position: static;
   }
 }
 
@@ -806,10 +1084,24 @@
     border-radius: 22px;
   }
 
+  .checkout-page {
+    padding: 20px 18px 48px;
+  }
+
+  .checkout-hero {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .checkout-hero h1 {
+    font-size: 32px;
+  }
+
   .salons-hero h1 {
     font-size: 32px;
   }
 
+  .checkout-subcopy,
   .services-header-final p,
   .salons-subcopy,
   .contact-subcopy {
@@ -825,8 +1117,13 @@
     align-items: flex-start;
   }
 
+  .checkout-form-card,
+  .checkout-summary-card,
   .contact-hero {
     padding: 22px;
+  }
+
+  .contact-hero {
     border-radius: 22px;
   }
 
@@ -839,6 +1136,7 @@
     padding: 22px;
   }
 
+  .checkout-pay-button,
   .contact-submit-button {
     width: 100%;
   }

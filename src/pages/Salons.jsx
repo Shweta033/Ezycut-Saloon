@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Salons() {
   const salons = [
     {
@@ -118,9 +120,12 @@ function Salons() {
               <span>{salon.waitTime}</span>
             </div>
 
-            <button className="salon-card-button" type="button">
+            <Link
+              className="salon-card-button"
+              to={`/checkout?salon=${encodeURIComponent(salon.name)}`}
+            >
               View Slots
-            </button>
+            </Link>
           </article>
         ))}
       </section>
