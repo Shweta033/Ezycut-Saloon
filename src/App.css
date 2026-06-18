@@ -198,3 +198,648 @@
   color: #aaa;
   margin: 8px 0;
 }
+/* Customer Reviews */
+.reviews {
+  padding: 80px;
+  text-align: center;
+}
+
+.reviews h2 {
+  color: #d4af37;
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.reviewGrid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.reviewCard {
+  background: #1c1c1c;
+  width: 300px;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.reviewCard:hover {
+  transform: translateY(-8px);
+  border: 1px solid #d4af37;
+  box-shadow: 0 8px 25px rgba(212,175,55,0.3);
+}
+
+.reviewCard p {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.reviewCard h4 {
+  color: #d4af37;
+  margin-top: 20px;
+}
+.services-page-final {
+  padding: 40px 80px 80px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.services-header-final {
+  max-width: 760px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.services-header-final h1 {
+  color: #d4af37;
+  font-size: clamp(36px, 6vw, 52px);
+  line-height: 1.04;
+  margin: 0 auto 15px;
+  max-width: 10ch;
+  text-wrap: balance;
+}
+
+.services-header-final p {
+  color: #aaa;
+  font-size: clamp(18px, 2.6vw, 20px);
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 28ch;
+  text-wrap: balance;
+}
+
+.services-grid-final {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.services-card-final {
+  background: #1c1c1c;
+  width: 100%;
+  padding: 30px;
+  border-radius: 18px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+}
+
+.services-card-final:hover {
+  transform: translateY(-8px);
+  border: 1px solid #d4af37;
+  box-shadow: 0 8px 25px rgba(212,175,55,0.3);
+}
+
+.services-icon-final {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.services-card-final h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.services-card-final p {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.services-card-final span {
+  color: #d4af37;
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 18px 0;
+}
+
+.services-card-final button {
+  padding: 14px 28px;
+  background: #d4af37;
+  color: #111;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.salons-page {
+  padding: 40px 80px 80px;
+  min-height: 100vh;
+}
+
+.salons-hero {
+  margin: 0 auto 48px;
+  max-width: 1180px;
+  padding: 40px;
+  border: 1px solid #262626;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top left, rgba(212, 175, 55, 0.22), transparent 34%),
+    linear-gradient(135deg, #181818 0%, #111 100%);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.salons-hero-copy {
+  max-width: 760px;
+}
+
+.salons-eyebrow {
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.salons-hero h1 {
+  color: #fff;
+  font-size: 54px;
+  line-height: 1.08;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.salons-subcopy {
+  color: #b4b4b4;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 620px;
+  text-align: left;
+}
+
+.salons-filter-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.salons-filter-chip {
+  padding: 12px 18px;
+  border: 1px solid #3a3320;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #f3e6b2;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.salons-filter-chip:hover {
+  background: #d4af37;
+  color: #111;
+  transform: translateY(-2px);
+}
+
+.salons-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.salons-stat-card {
+  padding: 20px 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: left;
+}
+
+.salons-stat-card strong {
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.salons-stat-card span {
+  color: #b4b4b4;
+  font-size: 15px;
+}
+
+.salons-listing {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.salon-list-card {
+  background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
+  border: 1px solid #242424;
+  border-radius: 22px;
+  padding: 26px;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.salon-list-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(212, 175, 55, 0.6);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.32);
+}
+
+.salon-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.salon-card-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(212, 175, 55, 0.14);
+  color: #f2d57c;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.salon-card-rating {
+  color: #e8ddb0;
+  font-size: 14px;
+}
+
+.salon-list-card h2 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.salon-card-area {
+  color: #d4af37;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.salon-card-services {
+  color: #a8a8a8;
+  font-size: 16px;
+  line-height: 1.7;
+  min-height: 82px;
+}
+
+.salon-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 22px 0 24px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.salon-card-button {
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 12px;
+  background: #d4af37;
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.salon-card-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.94;
+}
+
+.contact-page {
+  padding: 40px 80px 80px;
+  min-height: 100vh;
+}
+
+.contact-hero {
+  max-width: 1180px;
+  margin: 0 auto 36px;
+  padding: 40px;
+  border-radius: 28px;
+  border: 1px solid #262626;
+  background:
+    radial-gradient(circle at top right, rgba(212, 175, 55, 0.22), transparent 34%),
+    linear-gradient(135deg, #181818 0%, #101010 100%);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+}
+
+.contact-hero-copy {
+  max-width: 760px;
+}
+
+.contact-eyebrow {
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.contact-hero h1 {
+  color: #fff;
+  font-size: 52px;
+  line-height: 1.08;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.contact-subcopy {
+  color: #b4b4b4;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 620px;
+  text-align: left;
+}
+
+.contact-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.contact-stat-card {
+  padding: 20px 22px;
+  border-radius: 18px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-stat-card strong {
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.contact-stat-card span {
+  color: #b4b4b4;
+  font-size: 15px;
+}
+
+.contact-content {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.95fr 1.25fr;
+  gap: 24px;
+}
+
+.contact-info-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-info-card,
+.contact-form-card {
+  background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
+  border: 1px solid #242424;
+  border-radius: 24px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+}
+
+.contact-info-card {
+  padding: 28px;
+  text-align: left;
+}
+
+.contact-info-card h2 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-info-card p {
+  color: #a8a8a8;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.contact-info-card span {
+  color: #d4af37;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact-form-card {
+  padding: 30px;
+  text-align: left;
+}
+
+.contact-form-label {
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.contact-form-card h2 {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 26px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 18px;
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-form label span {
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #2d2d2d;
+  border-radius: 14px;
+  padding: 15px 16px;
+  background: #161616;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: rgba(212, 175, 55, 0.7);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.12);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 160px;
+}
+
+.contact-message-field {
+  grid-column: 1 / -1;
+}
+
+.contact-submit-button {
+  width: fit-content;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  background: #d4af37;
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.contact-submit-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.94;
+}
+
+@media (max-width: 1024px) {
+  .services-page-final,
+  .salons-page {
+    padding: 24px 24px 60px;
+  }
+
+  .salons-hero {
+    padding: 28px;
+  }
+
+  .services-grid-final {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .services-header-final {
+    margin-bottom: 36px;
+  }
+
+  .services-header-final h1,
+  .salons-hero h1 {
+    font-size: 40px;
+  }
+
+  .salons-stats,
+  .salons-listing,
+  .contact-stats,
+  .contact-content,
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-page {
+    padding: 24px 24px 60px;
+  }
+
+  .contact-hero {
+    padding: 28px;
+  }
+
+  .contact-hero h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 20px 24px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .navbar div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .services-page-final {
+    padding: 20px 18px 48px;
+  }
+
+  .services-grid-final {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .services-header-final h1 {
+    font-size: 32px;
+    max-width: 9ch;
+  }
+
+  .salons-hero {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .salons-hero h1 {
+    font-size: 32px;
+  }
+
+  .services-header-final p,
+  .salons-subcopy,
+  .contact-subcopy {
+    font-size: 16px;
+  }
+
+  .salons-filter-chip {
+    width: 100%;
+  }
+
+  .salon-card-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-hero {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .contact-hero h1 {
+    font-size: 32px;
+  }
+
+  .contact-form-card,
+  .contact-info-card {
+    padding: 22px;
+  }
+
+  .contact-submit-button {
+    width: 100%;
+  }
+}
